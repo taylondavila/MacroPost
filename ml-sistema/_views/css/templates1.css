@@ -1,0 +1,268 @@
+
+.titulo_principal{
+color:#FFF; padding-top: 60px; padding-bottom: 60px;
+}
+
+.produto_titulo{
+    padding-top: 20px;
+    font-size: 24px;
+    color:#FFF;
+    font-weight: 500;
+}
+.produto_descricao{
+    font-size: 18px;
+    color:#FFF;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.produto_imagem{
+    width: 100%;
+    margin-bottom: 100px;
+    height: 350px;
+    overflow: hidden;
+}
+.produto_imagem img{
+    width: 100%;
+}
+
+.produto_titulo2{
+    padding-top:50px;
+    padding-bottom:50px;
+    font-size: 26px;
+    color:#000;
+    font-weight: 500;
+    text-align: center;
+}
+.produto_titulo3{
+    padding-top:60px;
+    padding-bottom:50px;
+    font-size: 26px;
+    color:#000;
+    font-weight: 500;
+    text-align: center;
+}
+.produto_titulo4{
+    padding-top:50px;
+    padding-bottom:30px;
+    font-size: 20px;
+    color:#000;
+    font-weight: 500;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.produto_titulo5{
+    padding-top:10px;
+    padding-bottom:30px;
+    font-size: 20px;
+    color:#000;
+    font-weight: 500;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.produto_duvidas_div{
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+.produto_duvidas_linha{
+    font-size: 19px;
+    font-weight: 500;
+    padding-top: 30px;
+    text-align: justify;
+}
+
+.produto_conteudo_div{
+    margin-top: 20px;
+    padding-bottom: 60px;
+}
+.produto_conteudos_linha{
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 30px;
+    text-align: left;
+}
+
+.produto_linha_divisao{
+    border-top: 1px dashed #ddd;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.produto_linha_divisao2{
+    border-top: 1px dashed #ccc;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.produto_txt_promo{
+    font-size: 18px;
+    padding-top: 20px;
+    text-align: center;
+    font-weight:bold;
+}
+.produto_valor_de{
+    margin-top: 20px;
+    font-size: 20px;
+    color:red;
+    text-decoration: line-through;
+    text-align: center;
+}
+.produto_valor_por{
+    margin-top: 0px;
+    font-size: 30px;
+    color:green;
+    font-weight: bold;
+    text-align: center;
+}
+.produto_valor_por span{
+    font-size: 16px;
+}
+
+.produto_bt_comprar{
+    font-size: 18px;
+    color:#FFF;
+    background-color: #3483fa;
+    padding:17px;
+}
+.produto_bt_comprar:hover{
+    color:#fff;
+}
+
+.produto_bt_gratis{
+    font-size: 16px;
+    color:#FFF;
+    background-color: green;
+    padding:14px;
+    font-weight: 500;
+    cursor: pointer;
+    display: block;
+}
+.produto_bt_gratis:hover{
+    color:#fff;
+}
+
+.produto_comprar_div{
+    border-left: 1px dashed #ccc;
+    margin-left: 20px;
+    padding-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    padding-bottom: 30px;
+}
+
+.contagem_promo{
+    padding-top: 20px;
+    font-size: 17px;
+    text-align: center;
+}
+#contagem {
+    display: inline-block;
+}
+#timer {
+    display: inline-block;
+}
+#timer span {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.produto_txt_final{
+    font-size: 15px;
+    padding-bottom: 30px;
+    text-align: center; 
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.produto_txt_final2{
+    text-align: center; 
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: -15px;
+}
+
+.produto_sobre_ml{
+    padding-left: 20px;
+    border-left: 1px dashed #ddd;
+    padding-right: 20px;
+    border-right: 1px dashed #ddd;
+    margin-top: 60px;
+}
+
+@media (max-width: 1200px){
+    .titulo_principal{
+        font-size: 30px;
+    }
+    .produto_titulo{
+        padding-top: 30px;
+        font-size: 22px;
+    }
+    .produto_descricao{
+        font-size: 17px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    .produto_imagem{
+        margin-bottom: 100px;
+        height: 350px;
+    }
+}
+
+@media (max-width: 990px){
+    .titulo_principal{
+        font-size: 26px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .produto_titulo{
+        padding-top: 0px;
+        font-size: 20px;
+    }
+    .produto_descricao{
+        font-size: 13px;
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+    .produto_imagem{
+        margin-bottom: 70px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 770px){
+    .titulo_principal{
+        font-size: 26px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    .produto_titulo{
+        padding-top: 0px;
+        font-size: 20px;
+    }
+    .produto_descricao{
+        font-size: 14px;
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    .produto_imagem{
+        margin-bottom: 60px;
+        height: 250px;
+    }
+
+    .produto_sobre_ml{
+        padding-left: 0px;
+        border-left: 0px dashed #ddd;
+        padding-right: 0px;
+        border-right: 0px dashed #ddd;
+        margin-top: 60px;
+    }
+    .produto_comprar_div{
+        border-left:0px dashed #ccc;
+        margin-left:0px;
+        padding-left:0px;
+        margin-top:0px;
+        margin-bottom: 70px;
+        padding-bottom: 30px;
+    }
+
+}
