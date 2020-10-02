@@ -13,18 +13,18 @@ $config['BANCO'] = "u457172881_ml";
 /////////////////////////////////////////////////////////////////////////////////////////////////
 // Configrações de base de dados local (apenas para trabalhar em ambiente local)
 $config['SERVIDOR_LOCAL'] = "localhost";
-$config['BANCO_LOCAL'] = "produtos_digitais";
+$config['BANCO_LOCAL'] = "mldb";
 $config['USUARIO_LOCAL'] = "root";
 $config['SENHA_LOCAL'] = "";
 
 /////////////////////////////////////////////////////////////////////////////////////////////////
 // Configrações de Pasta
 $config['PASTA'] = "ml"; //caso os arquivos não fiquem na raiz da hospedagem e sim em uma pasta dentro do servidor
-$config['PASTA_LOCAL'] = "produtos_digitais"; //caso utilize xampp para trabalhar local ficaria localhost/nome da pasta local
+$config['PASTA_LOCAL'] = "Macropost\ml-sistema"; //caso utilize xampp para trabalhar local ficaria localhost/nome da pasta local
 
 /////////////////////////////////////////////////////////////////////////////////////////////////
 // Certificado Digital
-$config['SSL'] = true; // se utilizar https:// com certificado digital marque este campo como "true" caso contrario use "false
+$config['SSL'] = false; // se utilizar https:// com certificado digital marque este campo como "true" caso contrario use "false
 
 /////////////////////////////////////////////////////////////////////////////////////////////////
 // Token
